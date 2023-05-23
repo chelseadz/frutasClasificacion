@@ -14,12 +14,12 @@
   <body>
     <table cellspacing=20>
       <tr>
-        <td><img src="frutas.jpg" alt="Frutas picture" width="300" height="300"></td>
+        <td><img src="frutas.jpg" alt="Frutas picture" width="200" height="200"></td>
         <td><h1>Clasificación de Frutas</h1>
             <p><em>Chelsea Durazo Duarte</em></p>
             <p><em>Oscar Eduardo Galaviz Cuen</em></p>
             <p><em>Alan Raúl Ortiz Tanori</em></p>
-            <p>Alumnos de Redes Neuronales en <a href="https://www.unison.mx/">UNISON</a>.</p></td>
+            <p>Alumnos de Redes Neuronales de <a href="https://cc.unison.mx/">LCC</a> en <a href="https://www.unison.mx/">UNISON</a>.</p></td>
       </tr>
     </table>
     <hr>
@@ -35,7 +35,7 @@
         de salida. </p>
         <p>El objetivo de la red neuronal es resolver los problemas de la misma manera que el cerebro humano, 
           aunque las redes neuronales son más abstractas. Las redes neuronales actuales suelen contener desde 
-          unos miles a unos pocos millones de unidades neuronales. </p>
+          unos miles a unos pocos millones de unidades neuronales. Para aprender un poco más sobre su funcionamiento puede revisar el siguiente <a href="https://www.youtube.com/watch?v=CU24iC3grq8">video</a>.</p>
     </ul>
     <hr>
     <h3>Red Convolucional</h3>
@@ -46,18 +46,37 @@
           (V1) de un cerebro biológico. Este tipo de red es una variación de un perceptron multicapa, 
           sin embargo, debido a que su aplicación es realizada en matrices bidimensionales, son muy efectivas 
           para tareas de visión artificial, como en la clasificación y segmentación de imágenes, entre otras 
-          aplicaciones</p>
+          aplicaciones. Para mayor información puede revisar el siguiente <a href="https://www.youtube.com/watch?v=4sWhhQwHqug">video</a>.</p>
       
     </ul>
     <hr>
     <h3>Dataset de Frutas</h3>
     <ul>
+      <td><img src="frutas2.jpg" alt="Frutas2 picture" width="600" height="150"></td>
+      <h4>Información del Dataset:</h4>
+      <p>-Número total de imagenes: 90483</p>
+      <p>-Tamaño del Training: 67692 imagenes (una fruta o vegetal por imagen)</p>
+      <p>-Tamaño del Test: 22688 imagenes (una fruta o vegetal por imagen)</p>
+      <p>-Número de clases: 131 (frutas y vegetales)</p>
+      <p>-Tamaño de imagen: 100x100 pixeles</p>
+      <p>El dataset lo puedes encontrar <a href="https://www.kaggle.com/datasets/moltean/fruits">aqui</a></p>
       
     </ul>
     <hr>
-    <h3>Proceso de Entrenamiento</h3>
+    <h3>Proceso de Entrenamiento y Aplicación</h3>
     <ul>
-      
+      <tr>
+        <td><img src="colab.png" alt="colab picture" width="500" height="300"></td>
+        <td>
+            <p>Utilizamos una libreta de colab para este proyecto, donde primero cargamos el 
+              dataset de frutas que utilizariamos en nuestro modelo. Despues procedemos a 
+              entrenar dicho modelo y al llegar al accuracy deseado, tomamos nuestro modelo 
+              y lo guardamos en formato HDF5 para facilitar su uso más adelante en nuestra 
+              aplicación. El modelo junto a nuestra aplicación se puede observar <a href="https://github.com/chelseadz/frutasClasificacion">aqui</a>. 
+              Y localmente (UNISON) puede entrar a nuestra aplicación <a href="http://10.10.133.124:8501">aqui</a>.
+            </p>
+        </td>
+      </tr>
     </ul>
     <hr>
 
