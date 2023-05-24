@@ -2,12 +2,15 @@ Puedes correr la aplicación con
 
     streamlit run 'c:/yourpath/frutasClasificacion/pagina.py'
 
+# Clasificación de frutas
+
 En este proyecto, se ha desarrollado un modelo de redes neuronales utilizando capas convolucionales con el objetivo de detectar frutas en imágenes. Para entrenar y evaluar este modelo, se utilizó el popular conjunto de datos ["fruits-360"](https://www.kaggle.com/datasets/moltean/fruits) disponible en Kaggle, que contiene imágenes de diversas frutas en diferentes ángulos sobre fondo blanco.
 
 El uso de redes neuronales convolucionales se ha destacado en el campo de la visión por computadora debido a su capacidad para reconocer patrones y características específicas en imágenes. Estas capas convolucionales son especialmente adecuadas para el procesamiento de imágenes, ya que pueden capturar detalles relevantes a diferentes escalas y aprender representaciones jerárquicas.
 
 El modelo que desarrollamos es el siguiente:
-    ![modelo](/assets/images/tux.png)
+
+   ![modelo](modelo.jpg)
 
 Además de desarrollar el modelo de redes neuronales, también se ha creado una aplicación interactiva utilizando Streamlit. Esta aplicación permite observar el funcionamiento del modelo en tiempo real, utilizando la cámara como entrada. 
 
