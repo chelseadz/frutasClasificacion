@@ -14,7 +14,7 @@ El modelo que desarrollamos es el siguiente:
 
 Además de desarrollar el modelo de redes neuronales, también se ha creado una aplicación interactiva utilizando Streamlit. Esta aplicación permite observar el funcionamiento del modelo en tiempo real, utilizando la cámara como entrada. 
 
-A lo largo de este proyecto, se exploraron los pasos necesarios para construir y entrenar un modelo de detección de frutas con redes neuronales convolucionales. Nuestros resultados no son los mejores en la aplicación en tiempo real a pesar de haber obtenido mas de 90% de accuracy con las imágenes de test. Esto puede mejorarse por una parte robusteciendo el modelo.
+Nuestros resultados no son los mejores en la aplicación en tiempo real a pesar de haber obtenido mas de 90% de accuracy con las imágenes de test. Esto puede mejorarse por una parte robusteciendo el modelo.
 
 Lo que podemos hacer para mejorar la detección es fusionar algunas de las 131 clases que vienen en el dataset, ya que al ser tantas las variedades de frutas que se pueden predecir, no es suficiente la diferencia en la capa de salida para escojer correctamente la fruta que realmente es.
 
