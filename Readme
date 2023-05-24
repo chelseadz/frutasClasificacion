@@ -1,5 +1,0 @@
-Información del proyecto en https://arot4.github.io/frutasClasificacion/
-
-Puedes correr la página con
-
-streamlit run 'c:/yourpath/frutasClasificacion/pagina.py'
